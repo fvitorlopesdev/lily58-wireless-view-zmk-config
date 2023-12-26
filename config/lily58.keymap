@@ -17,6 +17,12 @@
 #define WINDOW_MANAGER 5
 #define MODIFIERS 6
 
+
+&mt {
+	tapping-term-ms = <300>;
+	flavor = "tap-preferred";
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
